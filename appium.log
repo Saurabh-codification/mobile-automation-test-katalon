@@ -1,0 +1,134 @@
+[35m[Appium][39m Welcome to Appium v1.22.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 65165
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   tmpDir: C:\Users\SAURABH\AppData\Local\Temp\\Katalon\Appium\Temp1638168374360
+[35m[Appium][39m   chromedriverPort: 65166
+[35m[Appium][39m Deprecated server args:
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
+[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[35m[Appium][39m   chromedriverPort: 65166
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:65165
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m15 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\SAURABH\\workspace-katalon\\sample-app\\Calculator_SecCalculator_R.apk","noReset":true,"deviceName":"samsung SM-M315F (Android 11)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"11","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"RZ8N91VR6EL","systemPort":65175},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\SAURABH\\workspace-katalon\\sample-app\\Calculator_SecCalculator_R.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"samsung SM-M315F (Android 11)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"11","appium:systemPort":65175,"appium:udid":"RZ8N91VR6EL"}]}}[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.22.1 creating new AndroidUiautomator2Driver (v1.70.1) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: 5e58c77e-9947-459f-b739-a2842143f0a8
+[35m[BaseDriver][39m Using local app 'C:\Users\SAURABH\workspace-katalon\sample-app\Calculator_SecCalculator_R.apk'
+[35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\SAURABH\.katalon\tools\android_sdk' (newest first):
+[35m[ADB][39m     C:/Users/SAURABH/.katalon/tools/android_sdk/build-tools/29.0.3
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\SAURABH\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: RZ8N91VR6EL
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\SAURABH\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[ADB][39m Getting device platform version
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[ADB][39m Package name: 'com.sec.android.app.popupcalculator'
+[35m[ADB][39m Main activity name: 'com.sec.android.app.popupcalculator.Calculator'
+[35m[ADB][39m Using 'apksigner.jar' from 'C:\Users\SAURABH\.katalon\tools\android_sdk\build-tools\29.0.3\lib\apksigner.jar'
+[35m[ADB][39m 'C:\Users\SAURABH\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' is signed with the default certificate
+[35m[ADB][39m 'C:\Users\SAURABH\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[35m[UiAutomator2][39m Server packages are going to be (re)installed
+[35m[UiAutomator2][39m Full packages reinstall is going to be performed
+[35m[ADB][39m io.appium.uiautomator2.server was successfully uninstalled
+[35m[ADB][39m The application at 'C:\Users\SAURABH\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[35m[ADB][39m The installation of 'appium-uiautomator2-server-v4.27.0.apk' took 3343ms
+[35m[ADB][39m io.appium.uiautomator2.server.test was successfully uninstalled
+[35m[ADB][39m The application at 'C:\Users\SAURABH\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[35m[ADB][39m The installation of 'appium-uiautomator2-server-debug-androidTest.apk' took 1849ms
+[35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[35m[ADB][39m 'C:\Users\SAURABH\workspace-katalon\sample-app\Calculator_SecCalculator_R.apk' is signed with a non-default certificate
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.27.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\SAURABH\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' and test from 'C:\Users\SAURABH\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.sec.android.app.popupcalculator/com.sec.android.app.popupcalculator.Calculator and waiting for 'com.sec.android.app.popupcalculator/com.sec.android.app.popupcalculator.Calculator'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 5e58c77e-9947-459f-b739-a2842143f0a8 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m21838 ms - 1333[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5e58c77e-9947-459f-b739-a2842143f0a8[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/5e58c77e-9947-459f-b739-a2842143f0a8 [39m[32m200[39m [90m14 ms - 1287[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5e58c77e-9947-459f-b739-a2842143f0a8[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/5e58c77e-9947-459f-b739-a2842143f0a8 [39m[32m200[39m [90m12 ms - 1287[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5e58c77e-9947-459f-b739-a2842143f0a8/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":60000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5e58c77e-9947-459f-b739-a2842143f0a8/timeouts [39m[32m200[39m [90m6 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5e58c77e-9947-459f-b739-a2842143f0a8/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (5e58c77e)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 40778045-ae17-41a0-9170-dfb50f6f007d with 5e58c77e-9947-459f-b739-a2842143f0a8
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/5e58c77e-9947-459f-b739-a2842143f0a8/source [39m[32m200[39m [90m116 ms - 17780[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5e58c77e-9947-459f-b739-a2842143f0a8/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/5e58c77e-9947-459f-b739-a2842143f0a8/screenshot [39m[32m200[39m [90m523 ms - 132306[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5e58c77e-9947-459f-b739-a2842143f0a8/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (5e58c77e)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 40778045-ae17-41a0-9170-dfb50f6f007d with 5e58c77e-9947-459f-b739-a2842143f0a8
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/5e58c77e-9947-459f-b739-a2842143f0a8/source [39m[32m200[39m [90m322 ms - 17780[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5e58c77e-9947-459f-b739-a2842143f0a8/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/5e58c77e-9947-459f-b739-a2842143f0a8/screenshot [39m[32m200[39m [90m690 ms - 131652[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5e58c77e-9947-459f-b739-a2842143f0a8/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'C' or . = 'C') and @resource-id = 'com.sec.android.app.popupcalculator:id/calc_keypad_btn_clear']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5e58c77e-9947-459f-b739-a2842143f0a8/elements [39m[32m200[39m [90m1359 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5e58c77e-9947-459f-b739-a2842143f0a8/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = '( )' or . = '( )') and @resource-id = 'com.sec.android.app.popupcalculator:id/calc_keypad_btn_parenthesis']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5e58c77e-9947-459f-b739-a2842143f0a8/elements [39m[32m200[39m [90m428 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5e58c77e-9947-459f-b739-a2842143f0a8/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = '%' or . = '%') and @resource-id = 'com.sec.android.app.popupcalculator:id/calc_keypad_btn_percentage']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5e58c77e-9947-459f-b739-a2842143f0a8/elements [39m[32m200[39m [90m369 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5e58c77e-9947-459f-b739-a2842143f0a8/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = '÷' or . = '÷') and @resource-id = 'com.sec.android.app.popupcalculator:id/calc_keypad_btn_div']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5e58c77e-9947-459f-b739-a2842143f0a8/elements [39m[32m200[39m [90m341 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5e58c77e-9947-459f-b739-a2842143f0a8/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = '7' or . = '7') and @resource-id = 'com.sec.android.app.popupcalculator:id/calc_keypad_btn_07']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5e58c77e-9947-459f-b739-a2842143f0a8/elements [39m[32m200[39m [90m424 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5e58c77e-9947-459f-b739-a2842143f0a8/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = '8' or . = '8') and @resource-id = 'com.sec.android.app.popupcalculator:id/calc_keypad_btn_08']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5e58c77e-9947-459f-b739-a2842143f0a8/elements [39m[32m200[39m [90m340 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5e58c77e-9947-459f-b739-a2842143f0a8/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = '9' or . = '9') and @resource-id = 'com.sec.android.app.popupcalculator:id/calc_keypad_btn_09']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5e58c77e-9947-459f-b739-a2842143f0a8/elements [39m[32m200[39m [90m366 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/5e58c77e-9947-459f-b739-a2842143f0a8[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session 5e58c77e-9947-459f-b739-a2842143f0a8 from our master session list
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/5e58c77e-9947-459f-b739-a2842143f0a8 [39m[32m200[39m [90m579 ms - 14[39m
+[35m[HTTP][39m [90m[39m

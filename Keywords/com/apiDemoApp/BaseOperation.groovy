@@ -21,6 +21,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 
 import internal.GlobalVariable
+import io.appium.java_client.android.AndroidDriver
+import io.appium.java_client.android.nativekey.AndroidKey
+import io.appium.java_client.android.nativekey.KeyEvent
 
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.WebDriver
@@ -62,6 +65,17 @@ class BaseOperation {
 		}
 		return false;
 	}
+	
+	@Keyword
+	def pressEnterButton() {
+		getCurrentSessionAndroidMobileDriver().pressKey(new KeyEvent(AndroidKey.ENTER))
+	}
+	
+	
+	@Keyword
+	def pressSpaceBar() {
+		getCurrentSessionAndroidMobileDriver().pressKey(new KeyEvent(AndroidKey.SPACE))
+	}
 
 
 	@Keyword
@@ -69,7 +83,7 @@ class BaseOperation {
 		Mobile.startApplication(appPath, false)
 	}
 
-	
+
 	@Keyword
 	def startExistingApplication(String appId) {
 		Mobile.startExistingApplication(appId)
@@ -87,5 +101,10 @@ class BaseOperation {
 	@Keyword
 	def WebDriver getCurrentSessionMobileDriver() {
 		return MobileDriverFactory.getDriver();
+	}
+	
+	@Keyword
+	def AndroidDriver getCurrentSessionAndroidMobileDriver() {
+		return (AndroidDriver) MobileDriverFactory.getDriver();
 	}
 }

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>qa</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'pixel_3'</initValue>
+      <name>deviceName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Saurabh Dhingra'</initValue>
+      <name>nameVal</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>5</initValue>
+      <name>elementDetectionTimeout</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'C:/Users/SAURABH/workspace-katalon/sample-app/ApiDemos-debug.apk'</initValue>
+      <name>appPath</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

@@ -17,29 +17,38 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
-
 // CustomKeywords.'com.apiDemoApp.BaseOperation.startApplication'("C:/Users/SAURABH/workspace-katalon/sample-app/ApiDemos-debug.apk")
+//CustomKeywords.'com.apiDemoApp.BaseOperation.startExistingApplication'("io.appium.android.apis")
 
-CustomKeywords.'com.apiDemoApp.BaseOperation.startExistingApplication'("io.appium.android.apis")
+//CustomKeywords.'com.apiDemoApp.ApplicationUtils.runAppInBackgroud'(10)
 
-performBasicOperation("Saurabh Dhingra")
+//CustomKeywords.'com.apiDemoApp.ApplicationUtils.lockDevice'()
+
+//Mobile.unlockScreen()
 
 
-CustomKeywords.'com.apiDemoApp.BaseOperation.closeApplication'()
+performBasicOperation(GlobalVariable.nameVal) 
 
+// CustomKeywords.'com.apiDemoApp.BaseOperation.closeApplication'()
+
+
+
+def applicatinOperations() {
+}
 
 def performBasicOperation(String text) {
+    Mobile.getText(findTestObject('Object Repository/APIDemosApk/accessibilityLink'), GlobalVariable.elementDetectionTimeout)
+
+    Mobile.tap(findTestObject('Object Repository/APIDemosApk/viewsLink'), GlobalVariable.elementDetectionTimeout)
+
+    Mobile.scrollToText('TextFields')
+
+    Mobile.tap(findTestObject('Object Repository/APIDemosApk/textFieldLink'), GlobalVariable.elementDetectionTimeout)
+
+    Mobile.setText(findTestObject('Object Repository/APIDemosApk/editTextbox'), text, GlobalVariable.elementDetectionTimeout)
 	
-	Mobile.getText(findTestObject('Object Repository/APIDemosApk/accessibilityLink'), 5)
+	CustomKeywords.'com.apiDemoApp.BaseOperation.pressEnterButton'()
 	
-	Mobile.tap(findTestObject('Object Repository/APIDemosApk/viewsLink'), 5)
-	
-	Mobile.scrollToText("TextFields")
-	
-	Mobile.tap(findTestObject('Object Repository/APIDemosApk/textFieldLink'), 5)
-	
-	Mobile.setText(findTestObject('Object Repository/APIDemosApk/editTextbox'), text, 0)
-	
+	Thread.sleep(5000)
 }
 

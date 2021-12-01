@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "0CEC037DD7EAC4640B96B4A76234113F",
+  "keywordFileContentHash": "4EF9F725A11309234A9613A3FDA3765E",
   "keywordClasses": [
     {
       "name": "com.apiDemoApp.BaseOperation",
@@ -34,6 +34,14 @@
               }
             }
           ]
+        },
+        {
+          "name": "pressEnterButton",
+          "parameters": []
+        },
+        {
+          "name": "pressSpaceBar",
+          "parameters": []
         },
         {
           "name": "startApplication",
@@ -77,6 +85,10 @@
         },
         {
           "name": "getCurrentSessionMobileDriver",
+          "parameters": []
+        },
+        {
+          "name": "getCurrentSessionAndroidMobileDriver",
           "parameters": []
         }
       ]

@@ -33,15 +33,18 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": "/**\n\t * Check if element present in timeout\n\t * @param to Katalon test object\n\t * @param timeout time to wait for element to show up\n\t * @return true if element present, otherwise false\n\t */"
         },
         {
           "name": "pressEnterButton",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "pressSpaceBar",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "startApplication",
@@ -59,7 +62,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "startExistingApplication",
@@ -77,22 +81,26 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "closeApplication",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "getCurrentSessionMobileDriver",
-          "parameters": []
+          "parameters": [],
+          "javadoc": "/**\n\t * Get mobile driver for current session\n\t * @return mobile driver for current session\n\t */"
         },
         {
           "name": "getCurrentSessionAndroidMobileDriver",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
